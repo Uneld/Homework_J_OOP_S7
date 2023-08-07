@@ -5,7 +5,6 @@ import calculator.presenter.CalculatorPresenter;
 import calculator.view.CalculatorView;
 
 import java.io.FileInputStream;
-import java.util.Formatter;
 import java.util.logging.LogManager;
 import java.util.logging.Logger;
 
@@ -97,7 +96,7 @@ public class CalculatorApp {
      * Метод для отображения сообщения о завершении работы приложения.
      */
     private void displayGoodbyeMessage() {
-        LOGGER.info("Displaying goodbye message");
+        LOGGER.info("Displaying goodbye message\n");
         calculatorView.displayMessage("Приложение завершено.");
     }
 
